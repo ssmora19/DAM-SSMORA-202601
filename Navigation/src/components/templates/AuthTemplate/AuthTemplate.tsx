@@ -4,7 +4,7 @@ import { Text } from "react-native";
 
 interface AuthTemplateProps {
     title: string;
-    subtitle: string;
+    subtitle?: string;
     children: React.ReactNode;
 }
 
