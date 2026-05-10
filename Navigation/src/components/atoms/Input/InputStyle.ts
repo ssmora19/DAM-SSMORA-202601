@@ -2,22 +2,19 @@ import { StyleSheet } from "react-native";
 import { colors, spacing, typography } from "../../../themes";
 
 export const styles = StyleSheet.create({
-    button: {
-        backgroundColor: colors.primary,
+    input: {
+        backgroundColor: colors.surface,
 
+        color: colors.white,
+
+        paddingHorizontal: spacing.md,
         paddingVertical: spacing.md,
 
         borderRadius: 12,
 
-        alignItems: "center",
-        justifyContent: "center",
-    },
-
-    text: {
-        color: colors.white,
-
         fontSize: typography.body,
 
-        fontWeight: "600",
+        borderWidth: 1,
+        borderColor: colors.border,
     },
 });
